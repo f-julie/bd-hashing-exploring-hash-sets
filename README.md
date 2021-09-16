@@ -66,7 +66,7 @@ this class to answer the following questions:
 
 
 6. Individually implement the missing methods in the `DevicePart` class in your Snippets package. You can
-test these methods using the `hashingset-classroom-hashcode` RDE workflow. When your tests are passing, check the box
+test these methods by running the `DevicePart` test class. When your tests are passing, check the box
 next to your role. Check with your group and see if anyone needs help.
 
 [] Recorder
@@ -200,10 +200,7 @@ always be an index of the array.
    ```
    
    *Code Block 2. Adding device to our team's device set.*
-   
-   
-   
-   
+
    | Parameter to `add` | # hashes calculated | Hash value | Index calculated | # device parts compared | Return value from `add` | `deviceParts.size()` |
    |-------------------:|---------------------|------------|------------------|-------------------------|-------------------------|----------------------|
    | flex               |          1          | 118352462  |        2         |          0              |          true           |        1             |
@@ -214,54 +211,29 @@ always be an index of the array.
    |                    |                     |            |                  |                         |                         |                      |
    
    *Table 1. Statistics related to adding items to our `HashSet`* 
-   
-   
-   
+       
+    | 0 | 1 | 2    | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+    |---|---|------|---|---|---|---|---|---|---|
+    |   |   | flex |   |   |   |   |   |   |   |
+    |   |   |      |   |   |   |   |   |   |   |
+    |   |   |      |   |   |   |   |   |   |   |
+    |   |   |      |   |   |   |   |   |   |   |
 
-   | 0 | 1 | 2    | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-   |:--|:--|:-----|:--|:--|:--|:--|:--|:--|:--|
-   |   |   | flex |   |   |   |   |   |   |   |
-   |   |   |      |   |   |   |   |   |   |   |
-   |   |   |      |   |   |   |   |   |   |   |
-   |   |   |      |   |   |   |   |   |   |   |
-   
    *Table 2. Each column represents an index in an array.*
      
 
 2. Is there a relationship between the number of times `hashCode` was called and `equals` was called?
 
-
-
-
-
 3. Which `DevicePart` variables had the same hash code values?
-
-   
-   
-   
 
 4. In what situation do we experience the *worst case* runtime complexity for adding an element to a HashSet?
 
-
-
-
 5. In what situation do we experience the *best case* runtime complexity of adding an element to a HashSet?
-
-
-
 
 6. What is the *average* runtime complexity of adding an element to a `HashSet`? What is the *worst case* runtime
    complexity?
 
-
-
-
-
 7. Is the size of a `HashSet` the same as its array's size? What defines a `HashSet`'s size?
-
-
-
-
 
 8. Our `hashcode()` method returned the same value for the `wired` microphone and the `flex` microphone. Is our
    `hashcode()` method working correctly? Why do we allow this?
@@ -318,13 +290,13 @@ Let's try listing the contents of our `HashSet`.
 
 Here is a copy of your table 2 array representation.
 
-   | 0 | 1 | 2    | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-   |:--|:--|:-----|:--|:--|:--|:--|:--|:--|:--|
-   |   |   | flex |   |   |   |   |   |   |   |
-   |   |   |      |   |   |   |   |   |   |   |
-   |   |   |      |   |   |   |   |   |   |   |
-   |   |   |      |   |   |   |   |   |   |   |
-   
+    | 0 | 1 | 2    | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+    |---|---|------|---|---|---|---|---|---|---|
+    |   |   | flex |   |   |   |   |   |   |   |
+    |   |   |      |   |   |   |   |   |   |   |
+    |   |   |      |   |   |   |   |   |   |   |
+    |   |   |      |   |   |   |   |   |   |   |
+
    *Table 3. A copy of the HashSet's internal representation.*
    
    
@@ -381,13 +353,13 @@ JavaDoc for `contains` method in the `Set` interface:
 
 
 Here is a copy of your table 2 array representation.
-
-   | 0 | 1 | 2    | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-   |:--|:--|:-----|:--|:--|:--|:--|:--|:--|:--|
-   |   |   | flex |   |   |   |   |   |   |   |
-   |   |   |      |   |   |   |   |   |   |   |
-   |   |   |      |   |   |   |   |   |   |   |
-   |   |   |      |   |   |   |   |   |   |   |
+    
+    | 0 | 1 | 2    | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+    |---|---|------|---|---|---|---|---|---|---|
+    |   |   | flex |   |   |   |   |   |   |   |
+    |   |   |      |   |   |   |   |   |   |   |
+    |   |   |      |   |   |   |   |   |   |   |
+    |   |   |      |   |   |   |   |   |   |   |
    
    *Table 4. A copy of the HashSet's internal representation.*
    
@@ -451,14 +423,15 @@ Done early? Consider these questions:
    |                       |       |                     |                    |                          |
    
     *Table 6. Statistics about removing items from the HashSet*
-
-   | 0 | 1 | 2    | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-   |:--|:--|:-----|:--|:--|:--|:--|:--|:--|:--|
-   |   |   | flex |   |   |   |   |   |   |   |
-   |   |   |      |   |   |   |   |   |   |   |
-   |   |   |      |   |   |   |   |   |   |   |
-   |   |   |      |   |   |   |   |   |   |   |
    
+    | 0 | 1 | 2    | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+    |---|---|------|---|---|---|---|---|---|---|
+    |   |   | flex |   |   |   |   |   |   |   |
+    |   |   |      |   |   |   |   |   |   |   |
+    |   |   |      |   |   |   |   |   |   |   |
+    |   |   |      |   |   |   |   |   |   |   |
+   
+
    *Table 7. A copy of the HashSet's internal representation.*
 
 4. What is the runtime complexity of removing an element from a `HashSet`?
