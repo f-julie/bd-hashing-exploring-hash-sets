@@ -1,4 +1,4 @@
-#Exploring `HashSet`s Guided Project
+# Exploring `HashSet`s Guided Project
 
 This activity will be walked through by your instructor.
 
