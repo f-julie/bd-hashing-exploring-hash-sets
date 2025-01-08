@@ -3,6 +3,7 @@ package com.amazon.ata.hashingset.partsmanager;
 import java.util.Arrays;
 
 public class ApplicationTestProgram {
+        // Application programs - with main() - instantiates objects and manipulate them through methods
 
         public static void main(String[] args) {
                 System.out.println("-".repeat(50) + "\nDefining flex part...");
@@ -70,6 +71,8 @@ public class ApplicationTestProgram {
                 System.out.println("-".repeat(50) + "\nadding wired part to HashSet in PartManager...");
                 microphonePartManager.addDevicePart(wired);
 
-                return;
+                // Attempt to add 6 items but only 5 are added due to hashCode collision
+
+                return; // Not required but can be used to debug the method by stopping it before it terminates
         }
 }
